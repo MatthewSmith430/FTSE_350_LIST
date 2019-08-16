@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1565975854773.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "551144136",
+    "id" : "F8DE212D",
+    "lastKnownWriteTime" : 1565975754,
+    "last_content_update" : 1565975754,
+    "path" : "C:/Users/ms3453n/OneDrive - University of Greenwich/GitHub/FTSE_350_LIST/SCRAPE FTSE350 CONSTITUENTS.R",
+    "project_path" : "SCRAPE FTSE350 CONSTITUENTS.R",
+    "properties" : {
+        "cursorPosition" : "28,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled2"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
