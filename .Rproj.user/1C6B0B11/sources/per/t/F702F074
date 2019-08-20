@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1566220308629.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3729664472",
+    "id" : "F702F074",
+    "lastKnownWriteTime" : 1566220233,
+    "last_content_update" : 1566220233,
+    "path" : "C:/Users/ms3453n/OneDrive - University of Greenwich/GitHub/FTSE_350_LIST/REUTER SCRAPE.R",
+    "project_path" : "REUTER SCRAPE.R",
+    "properties" : {
+        "cursorPosition" : "0,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

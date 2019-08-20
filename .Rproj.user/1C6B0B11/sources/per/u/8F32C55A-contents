@@ -1,0 +1,22 @@
+library(CompaniesHouse)
+mkey<-"2tv2rSV-ox3QsyNKFHnZwfgCB-sNtUNFZTgipTzH"
+library(dplyr)
+
+SEARCH1<-CompanySearch_limit("WOODFORD PATIENT CAPITAL TRUST",mkey)%>%
+    filter(company.type=="plc")
+
+SEARCH_LIST<-list()
+
+for (i in 17:length(JOINED)){
+  
+  SEARCH1<-CompanySearch_limit(JOINED[[i]],mkey)%>%
+    filter(company.type=="plc")
+  
+  SEARCH_LIST[[i]]<-SEARCH1
+  
+  
+}
+
+SEARCH_DF<-map_df(SEARCH_LIST,data.frame)
+
+write.csv(SEARCH_DF,"SEARCH_DF.csv")
