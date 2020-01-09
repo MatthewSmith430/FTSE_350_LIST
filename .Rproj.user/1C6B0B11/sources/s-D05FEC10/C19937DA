@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1578584195342.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "C19937DA",
+    "lastKnownWriteTime" : 8368299582722548325,
+    "last_content_update" : 1578584195342,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "DFADFF03",
+        "caption" : "LSE_NAME",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=LSE_NAME&cache_key=DFADFF03",
+        "displayedObservations" : 351,
+        "environment" : "",
+        "object" : "LSE_NAME",
+        "preview" : 0,
+        "totalObservations" : 351,
+        "variables" : 3
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
