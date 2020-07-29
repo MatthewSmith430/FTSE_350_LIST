@@ -22,3 +22,11 @@ for (i in 1:length(CODE)){
 LSE_NAME<-data.frame(CODE=CODE,
                      NAME_LSE=unlist(LSE_NAME_LIST))
 LSE_NAME$edit<-gsub("ORD.*","",LSE_NAME$NAME_LSE)
+
+sheet_name<-as.character(Sys.Date())
+FTSE_350_DF<-merge(FTSE_350_DF,LSE_NAME,by="CODE")
+FTSE_350_DF<-select(FTSE_350_DF,-NAME_LSE)
+  
+write.xlsx(FTSE_350_DF, file = "FTSE_350_FIRM_LIST.xlsx", 
+           sheetName=sheet_name,
+           append=TRUE)

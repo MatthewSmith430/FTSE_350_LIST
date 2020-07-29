@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1581765498040.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2055517596",
+    "id" : "694692E7",
+    "lastKnownWriteTime" : 1581768105,
+    "last_content_update" : 1581768105275,
+    "path" : "C:/Users/ms3453n/OneDrive - University of Greenwich/GitHub/FTSE_350_LIST/twitter handle scrape.R",
+    "project_path" : "twitter handle scrape.R",
+    "properties" : {
+        "cursorPosition" : "37,0",
+        "scrollLine" : "22",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
