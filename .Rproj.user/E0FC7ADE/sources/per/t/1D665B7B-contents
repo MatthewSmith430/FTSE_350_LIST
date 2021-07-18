@@ -1,5 +1,5 @@
 library(readxl)
-FTSE_MEM<-read_xlsx("FTSE_350_FIRM_LIST.xlsx",sheet = "2019-08-16")
+FTSE_MEM<-read_xlsx("FTSE_350_FIRM_LIST.xlsx",sheet = "2021-07-18")
 CODE<-FTSE_MEM$CODE
 CODE2<-paste0(CODE,".L")
 FTSE_URL<-"https://www.reuters.com/finance/stocks/company-officers/"
@@ -11,7 +11,7 @@ FTSE_TABLE$company_code<-CODE[[i]]
 
 
 FTSE_R_TABLE_LIST<-list()
-for (i in 349:length(CODE2)){
+for (i in 1:length(CODE2)){
   FTSE_URL<-"https://www.reuters.com/finance/stocks/company-officers/"
   url<-paste0(FTSE_URL,CODE2[[i]])
   webpage<-read_html(url)%>%
