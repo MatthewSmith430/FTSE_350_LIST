@@ -16,7 +16,7 @@ for (i in 1:18){
   
   colnames(FTSE_TABLE)<-c("CODE","NAME","CUR","MARKET_CAP","PRICE",
                           "POINT_CHANGE","PERCENT_CHANGE")
-  FTSE_TABLE<-FTSE_TABLE$POINT_CHANGE%>%
+  FTSE_TABLE$POINT_CHANGE<-FTSE_TABLE$POINT_CHANGE%>%
     as.character()
   
   FTSE_LIST[[i]]<-FTSE_TABLE
